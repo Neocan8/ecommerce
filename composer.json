@@ -1,0 +1,14 @@
+{
+    "name": "root/artesdaceci",
+    "description": "projeto ecommerce para artes da ceci",
+    "authors": [
+        {
+            "name": "felipe",
+            "email": "felipe@costacandido.com.br"
+        }
+    ],
+    "require": {
+    	"monolog/monolog" : "1.0.*",
+    	"phpmailer/phpmailer": "~6.0"
+    }
+}
