@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "aea0da107ee06da450daabd222e86781",
-    "content-hash": "820fb15eb84249f07e8503a27e0847aa",
+    "hash": "8bd055640ff5f2300a99a510b00c1ab5",
+    "content-hash": "e0baabc8dcc24f6c15694c83f2a6bc71",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -115,6 +115,47 @@
             ],
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
             "time": "2018-03-27 13:49:45"
+        },
+        {
+            "name": "rain/raintpl",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rainphp/raintpl3.git",
+                "reference": "5fc655b59cb3d541755116a09fc4c0206b301923"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rainphp/raintpl3/zipball/5fc655b59cb3d541755116a09fc4c0206b301923",
+                "reference": "5fc655b59cb3d541755116a09fc4c0206b301923",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Rain": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Federico Ulfo",
+                    "email": "rainelemental@gmail.com",
+                    "homepage": "http://github.com/rainphp"
+                },
+                {
+                    "name": "Rain Community"
+                }
+            ],
+            "description": "easy and fast template engine",
+            "homepage": "http://raintpl.com",
+            "time": "2013-11-10 18:36:47"
         }
     ],
     "packages-dev": [],
